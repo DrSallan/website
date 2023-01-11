@@ -1,0 +1,43 @@
+/* HEADER CSS */
+
+header {
+    background-color: var(--900);
+    box-shadow: 0px 4px 14px -1px #000000;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+header h1 {
+    margin-top: 20px;
+    font-family: CallingHeart;
+    font-weight: 100;
+    color: var(--text);
+    font-size: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: var(--text);
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    padding: 0px;
+    transition: all 0.2s;
+}
+
+nav a:hover {
+    background-color: red;
+    color: #fff;
+	padding: 9px 31px;
+    border-radius: 10px;
+}

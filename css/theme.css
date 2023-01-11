@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===========================================
+  Fonts & Colors
+  =========================================== */
+
+/* FONTS */
+
+@font-face {
+    font-family: CallingHeart;
+    src: url(../font/CallingHeart.ttf);
+}
+
+/* COLORS */
+
+:root {
+    --900: #1F2933;
+    --800: #323F4B;
+    --700: #3E4C59;
+    --600: #52606D;
+    --500: #616E7C;
+    --200: #CBD2D9;
+    --text: #fff;
+}
+
+.dark-theme {
+    --900: #ABD3FB;
+    --800: #8ABEEE;
+    --700: #79B1E5;
+    --600: #659DD1;
+    --text: #0E2A46;
+}
+
+/* VARIOUS EFFECTS */
+
+.img_hover {
+    transition: all .2s ease-in-out; 
+}
+
+.img_hover:hover {
+    transform: scale(1.1); 
+}
+
+::selection {
+    color: #fff;
+    background: #ff0000;
+  }
+
+/* PAGE COLOR */
+html {
+    background-color: var(--800);
+    width: 100%;
+}
+
+/* TEXT */
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    color: var(--text);
+}
+
+h3 {
+    font-family: Poppins, sans-serif;
+    color: var(--text);
+    font-size: 39px;
+    font-weight: 500;
+}
+
+h4 {
+    font-family: Poppins, sans-serif;
+    color: var(--text);
+    font-weight: 500;
+    font-size: 26px;
+}
+
+p {
+    font-family: Archivo, sans-serif;
+    color: var(--text);
+    font-size: 20px;
+}
+
+a {
+    font-family: Archivo, sans-serif;
+    color: var(--text);
+}

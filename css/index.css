@@ -1,0 +1,88 @@
+/* IMPORT CSS */
+@import "header.css";
+@import "footer.css";
+@import "theme.css";
+
+/* GENERAL */
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* BANNER CSS */
+
+.banner {
+    margin: 50px 50px 20px 50px ;
+    background-image: url(../img/banner_back.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    height: 760px;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    font-family: SecularOne, sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: var(--text);
+    /* color: #0D293E; */
+    text-align: center;
+    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.35);
+    font-family: 'Secular One', sans-serif;
+}
+
+/* MODULE SECTION CSS */
+
+.modules {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 40px 3.5% 60px 3.5%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.modules img {
+    height: 300px;
+}
+
+.modules p {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    line-height: 40px;
+}
+
+/* CREATOR SECTION CSS */
+
+.creator-banner {
+    display: block;
+    padding: 40px 0px;
+    width: 100%;
+    background-color: var(--700);
+    margin-bottom: 150px;
+}
+
+.creator {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.creator img {
+    height: 300px;
+}
+
+.creator p {
+    inline-size: 300px;
+    overflow-wrap: break-word;
+    line-height: 40px;
+}

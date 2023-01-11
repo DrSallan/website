@@ -1,0 +1,191 @@
+/* ===========================================
+  TEMP HEADER OVERRIDE
+  =========================================== */
+
+header {
+    margin: 0;
+    gap: 0;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0px 0px 0px 50px;
+    padding: 10px 0px;
+    font-size: 40px;
+}
+
+nav a {
+    font-size: 30px;
+    line-height: 0px;
+}
+
+nav {
+    margin-right: 30%;
+}
+
+nav ul {
+    margin-bottom: 0;
+}
+
+/* ===========================================
+   General Layout
+  =========================================== */
+  
+body {
+    overflow: hidden;
+}
+
+body li {
+    padding: 5px 0px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+ul {
+    list-style: none;
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+h4 {
+    padding: 24px 0px 8px 0px;
+}
+
+p {
+    padding: 8px 0px;
+}
+
+img {
+    padding: 8px 0px;
+}
+
+.wrapper {
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+/* ===========================================
+   Left Side
+  =========================================== */
+
+  /* General */
+.left {
+    background-color: var(--700);
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 18%;
+    min-width: 205px;
+    overflow-y: scroll;
+    max-height: 88vh;
+}
+
+    /* List styling */
+.sub_list {
+    padding-left: 20px;
+}
+
+.left a {
+    transition: text-decoration 0.2s;
+    font-size: 20px;
+    text-decoration: underline solid transparent;
+}
+
+.left h3 {
+    font-size: 30px;
+}
+
+.left a.sub_list:hover {
+    padding-left: 30px;
+    text-decoration: underline solid var(--text);
+
+}
+
+.left a:hover:not(.sub_list) {
+    padding-left: 10px;
+    text-decoration: underline solid var(--text);
+}
+
+main a::before {
+    content: " ⁍ ";
+    padding-right: 5px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+/* right */
+#right {
+    width: 87%;
+    overflow-y: scroll;
+    max-height: 88vh;
+}
+
+#right .wrapper {
+    width: 95%;
+}
+/* ===========================================
+  Sections
+  =========================================== */
+
+.sub1 {
+    padding-bottom: 20px;
+    border-bottom: solid var(--600) 2px;
+    margin-bottom: 20px;
+}
+
+.background {
+    background-color: var(--700);
+}
+
+/* logo */
+.title__wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px ;
+    align-items: center;
+}
+
+.title__wrapper h2 {
+    padding: 0px 20px;
+}
+
+.title__wrapper hr {
+    width: 30%;
+    height: 3px;
+    background-color: var(--600);
+    border: 1px;
+}
+
+.first__h3 {
+    padding-top: 15px !important ;
+}
+
+/* ===========================================
+  Scrollbars
+  =========================================== */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
