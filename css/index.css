@@ -11,7 +11,7 @@
   =========================================== */
 
 .tagline-banner {
-    height: 800px;
+    height: 900px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -20,10 +20,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 400px;
+    animation: transitionIn 1s;
 }
 
 .tagline {
-    width: 1000px;
+  animation: transitionIn 2s;
+    width: 60%;
     text-align: center;
     text-transform: uppercase;
     font-size: 80px;
@@ -48,7 +50,6 @@
 .sub-banner {
   display: flex;
   flex-flow: row nowrap;
-  color: var(--text);
   height: 600px;
   gap: 10px;
   align-items: center;
@@ -88,4 +89,21 @@
 .ez-text {
   text-align: right;
   inline-size: 300px;
- }
+}
+
+
+/* ===========================================
+ loading animations
+ =========================================== */
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}

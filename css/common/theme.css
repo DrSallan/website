@@ -19,6 +19,7 @@ html {
   :root {
     --dark: #111111;
     --base: #161616;
+    --light: #292929;
     --text: #fff;
 }
 
@@ -33,7 +34,8 @@ html {
 
 h3 {
   font-family: Poppins, sans-serif;
-    font-weight: 500;
+  color: var(--text);
+  font-weight: 500;
 }
 
 p {
