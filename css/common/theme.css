@@ -1,0 +1,44 @@
+/* ===========================================
+  Reset and or fixed
+  =========================================== */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+html {
+    background-color: var(--base);
+}
+
+/* ===========================================
+  Colors
+  =========================================== */
+
+  :root {
+    --dark: #111111;
+    --base: #161616;
+    --text: #fff;
+}
+
+/* ===========================================
+  Texts
+  =========================================== */
+
+@font-face {
+  font-family: CallingHeart;
+  src: url(../../font/CallingHeart.ttf);
+}
+
+h3 {
+  font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+p {
+  font-family: Archivo, sans-serif;
+  color: var(--text);
+
+  letter-spacing: 2px;
+}

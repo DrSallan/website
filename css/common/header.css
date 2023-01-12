@@ -1,0 +1,42 @@
+/* ===========================================
+  Main
+  =========================================== */
+
+header {
+  background-color: #292929;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.website-logo {
+  font-family: CallingHeart;
+  font-weight: 100;
+  color: var(--text);
+  font-size: 40px;
+  margin-left: 100px;
+}
+
+.menu {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.menu a:hover {
+  background-color: #009FFF;
+  color: #fff;
+  padding: 9px 20px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  color: var(--text);
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  transition: all 0.2s;
+}

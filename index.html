@@ -1,78 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d7b1b8529d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Noto+Sans&family=Poppins:wght@500&family=Secular+One&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/index.css">
     <title>Sallan's Modules</title>
 </head>
-
 <body>
     <header>
-        <h1>Sallan's Modules</h1>
+        <h1 class="website-logo">Sallan's Modules</h1>
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="modules">Modules</a></li>
-                <li><a href="#">About</a></li>
+            <ul class="menu">
+                <li ><a class="menu-item" href="#">Home</a></li>
+                <li ><a class="menu-item" href="modules.html">Modules</a></li>
+                <li ><a class="menu-item" href="#">About</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section class="tagline-banner">
+            <h2 class="tagline">Easily enhance your playing experience</h2>
+        </section>
 
-        <img src="img/moon.png" alt="Dark Theme Clickable Icon" class="img_hover" id="theme-icon">
-
-        <div class="banner">
-            <h1>Easily enhance your playing experience</h1>
-        </div>
-
-        <div class="modules">
-            <img src="img/modules_icon.png" class="img_hover" alt="Modules Section Icon">
-            <section>
-                <h2>Modules</h2>
-                <p>
-                    A general view of all the modules available with a full wiki for each of them.
-                </p>
-            </section>
-        </div>
-
-        <div class="creator-banner">
-            <div class="creator">
+        <div class="sub-banner mix-banner">
+            <div class="sub-wrapper">
+                <img src="img/home/mix.png" class="sub-img" alt="3 File Icons">
                 <section>
-                    <h2>The Creator</h2>
-                    <p>
-                        Who, when, how and why?
-                    </p>
+                    <h3 class="sub-title mix-title">Mix and Match</h3>
+                    <p class="sub-text mix-text">Small, well designed and modular. All within the confines of a datapack.</p>
                 </section>
-                <img src="img/creator_icon.png" class="img_hover" alt="Modules Section Icon">
             </div>
         </div>
-
-        <div class="empty_space"></div>
-
-    </main>
-
-    <footer>
-        <div class="icons">
-            <ul>
-                <li><a class="img_hover" href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                <li><a class="img_hover" href="#"><i class="fa-solid fa-cube"></i></a></li>
-                <li><a class="img_hover" href="#"><i class="fa-brands fa-discord"></i></a></li>
-                <li><a class="img_hover" href="#"><i class="fa-brands fa-twitch"></i></a></li>
-            </ul>
+        <div class="sub-banner">
+            <div class="sub-wrapper">
+                <section>
+                    <h3 class="sub-title ez-title">Easy to Use</h3>
+                    <p class="sub-text ez-text">The modules try to fit within the Minecraft feel and simplistic use.</p>
+                </section>
+                <img src="img/home/ez.png" class="sub-img" alt="3 File Icons">
+            </div>
         </div>
-        <small>©2022, DrSallan</small>
-    </footer>
+    </main>
 </body>
-
 </html>

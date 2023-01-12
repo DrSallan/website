@@ -1,88 +1,91 @@
-/* IMPORT CSS */
-@import "header.css";
-@import "footer.css";
-@import "theme.css";
+/* ===========================================
+  Imports
+  =========================================== */
 
-/* GENERAL */
+  @import "common/header.css";
+  @import "common/footer.css";
+  @import "common/theme.css";
 
-main {
+/* ===========================================
+  Tagline
+  =========================================== */
+
+.tagline-banner {
+    height: 800px;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: center;
-}
-
-/* BANNER CSS */
-
-.banner {
-    margin: 50px 50px 20px 50px ;
-    background-image: url(../img/banner_back.png);
-    background-size: cover;
-    background-attachment: fixed;
+    justify-content: center;
+    background-image: url(../img/home/cubes.svg);
     background-position: center;
     background-repeat: no-repeat;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
-    height: 760px;
-    display: flex;
-    align-items: center;
+    background-size: 400px;
 }
 
-.banner h1 {
-    font-family: SecularOne, sans-serif;
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: var(--text);
-    /* color: #0D293E; */
+.tagline {
+    width: 1000px;
     text-align: center;
-    text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.35);
+    text-transform: uppercase;
+    font-size: 80px;
     font-family: 'Secular One', sans-serif;
+    color: #007AFF;
+    background-image: -webkit-linear-gradient(0deg, #007AFF 0%,#00CCFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
 }
 
-/* MODULE SECTION CSS */
+/* ===========================================
+  Sub banners
+  =========================================== */
 
-.modules {
-    display: flex;
-    flex-flow: row nowrap;
-    margin: 40px 3.5% 60px 3.5%;
-    justify-content: space-around;
-    align-items: center;
-    gap: 40px;
+.sub-img {
+  image-rendering : pixelated;
 }
 
-.modules img {
-    height: 300px;
+.sub-banner {
+  display: flex;
+  flex-flow: row nowrap;
+  color: var(--text);
+  height: 600px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.modules p {
-    inline-size: 300px;
-    overflow-wrap: break-word;
-    line-height: 40px;
+.sub-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 60px;
 }
 
-/* CREATOR SECTION CSS */
-
-.creator-banner {
-    display: block;
-    padding: 40px 0px;
-    width: 100%;
-    background-color: var(--700);
-    margin-bottom: 150px;
+.sub-title {
+  font-size: 45px;
+  margin-bottom: 10px;
 }
 
-.creator {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+.sub-text {
+  overflow-wrap: break-word;
+  inline-size: 375px;
+  font-size: 25px;
 }
 
-.creator img {
-    height: 300px;
+/* ===========================================
+  individual sub banner style
+  =========================================== */
+
+.mix-banner {
+  background-color: var(--dark);
 }
 
-.creator p {
-    inline-size: 300px;
-    overflow-wrap: break-word;
-    line-height: 40px;
+.ez-title {
+ text-align: right;
 }
+
+.ez-text {
+  text-align: right;
+  inline-size: 300px;
+ }
