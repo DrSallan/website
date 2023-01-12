@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Noto+Sans&family=Poppins:wght@500&family=Secular+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>Sallan's Modules</title>
+</head>
+<body>
+    <header>
+        <h1 class="website-logo">Sallan's Modules</h1>
+        <nav>
+            <ul class="menu">
+                <li ><a class="menu-item" href="#">Home</a></li>
+                <li ><a class="menu-item" href="modules.html">Modules</a></li>
+                <li ><a class="menu-item" href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="tagline-banner">
+            <h2 class="tagline">Easily enhance your playing experience</h2>
+        </section>
+
+        <div class="sub-banner mix-banner">
+            <div class="sub-wrapper">
+                <img src="img/home/mix.png" class="sub-img" alt="3 File Icons">
+                <section>
+                    <h3 class="sub-title mix-title">Mix and Match</h3>
+                    <p class="sub-text mix-text">Small, well designed and modular. All within the confines of a datapack.</p>
+                </section>
+            </div>
+        </div>
+        <div class="sub-banner">
+            <div class="sub-wrapper">
+                <section>
+                    <h3 class="sub-title ez-title">Easy to Use</h3>
+                    <p class="sub-text ez-text">The modules try to fit within the Minecraft feel and simplistic use.</p>
+                </section>
+                <img src="img/home/ez.png" class="sub-img" alt="3 File Icons">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
