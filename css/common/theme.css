@@ -13,6 +13,18 @@ html {
 }
 
 /* ===========================================
+  Image Hover
+  =========================================== */
+
+.img_hover {
+  transition: all .2s ease-in-out; 
+}
+
+.img_hover:hover {
+  transform: scale(1.1); 
+}
+
+/* ===========================================
   Colors
   =========================================== */
 
@@ -32,7 +44,25 @@ html {
   src: url(../../font/CallingHeart.ttf);
 }
 
+a {
+  font-family: Poppins, sans-serif;
+  color: var(--text);
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  color: var(--text);
+  font-weight: 500;
+}
+
 h3 {
+  font-family: Poppins, sans-serif;
+  color: var(--text);
+  font-weight: 500;
+}
+
+h4 {
   font-family: Poppins, sans-serif;
   color: var(--text);
   font-weight: 500;

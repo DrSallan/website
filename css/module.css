@@ -10,7 +10,7 @@
   Title
   =========================================== */
 
-.title-banner {
+  .title-banner {
     padding-top: 60px;
     height: 240px;
     display: flex;
@@ -27,12 +27,43 @@
     text-transform: uppercase;
     font-size: 80px;
     font-family: 'Secular One', sans-serif;
-    background-image: -webkit-linear-gradient(0deg, #0be3ff 52%,#028a7c 100%);
-    background-clip: text;
+    background: #CF00B3;
+    background: linear-gradient(to bottom right, #CF00B3 0%, #CF95B4 100%);
     -webkit-background-clip: text;
-    text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
   
+}
+
+/* ===========================================
+ Main body wrapper
+ =========================================== */
+.main-wrapper {
+  margin: 0 auto;
+  background-color: var(--light);
+  width: 60%;
+  padding: 30px 50px;
+  border-radius: 20px;
+  margin-bottom: 200px;
+}
+
+/* ===========================================
+ text
+ =========================================== */
+
+p {
+  font-size: 20px;
+  max-width: 800px;
+}
+
+h3 {
+  font-size: 35px;
+  font-family: Poppins, sans-serif;
+  color: var(--text);
+  font-weight: 500;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgb(126, 126, 126);
+  max-width: 500px;
+  margin-bottom: 20px;
 }
 
 
@@ -40,7 +71,7 @@
  loading animations
  =========================================== */
 
-@keyframes transitionIn {
+ @keyframes transitionIn {
   from {
     opacity: 0;
     transform: rotateX(-10deg);
@@ -50,48 +81,4 @@
     opacity: 1;
     transform: rotateX(0deg);
   }
-}
-
-/* ===========================================
- Modules List css
- =========================================== */
-
-/* List Only */
-.module-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.module-list div:hover {
-  box-shadow: 0px 0px 15px 5px #030303;
-}
-
-/* Item only */
-.item-box {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  padding: 9px 23px;
-  background: var(--light);
-  border-radius: 5px;
-  transition: all 0.3s !important;
-}
-
-.item-img {
-  margin: 20px 20px 20px 0px;
-}
-
-.item-txt {
-  min-width: 400px;
-}
-
-h3 {
-  font-size: 39px;
-}
-
-p {
- font-size: 20px;
- max-width: 400px;
 }
