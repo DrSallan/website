@@ -1,0 +1,18 @@
+/* ===========================================
+  Imports
+  =========================================== */
+
+  @import "../module.css";
+
+
+/* ===========================================
+  Colors
+  =========================================== */
+
+  .title {
+      background: #CF00B3;
+      background: linear-gradient(to bottom right, #CF00B3 0%, #CF95B4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    
+  }

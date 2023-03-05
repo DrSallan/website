@@ -44,6 +44,22 @@
   padding: 30px 50px;
   border-radius: 20px;
   margin-bottom: 200px;
+  box-shadow: 1px 10px 4px 0px rgba(0,0,0,0.49);
+  -webkit-box-shadow: 1px 10px 4px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: 1px 10px 4px 0px rgba(0,0,0,0.49);
+}
+
+.main-double-info {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.main {
+
 }
 
 /* ===========================================
@@ -63,7 +79,21 @@ h3 {
   padding-bottom: 1px;
   border-bottom: 1px solid rgb(126, 126, 126);
   max-width: 500px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+/* ===========================================
+ Minecraft looking button
+ =========================================== */
+.mc-button {
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  height: 63px;
+}
+
+.mc-button:hover img {
+  opacity: 75%;
 }
 
 

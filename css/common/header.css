@@ -42,3 +42,8 @@ header {
   text-decoration: none;
   transition: all 0.2s;
 }
+
+.website-logo2 {
+  height: 60px;
+  margin-left: 100px;
+}

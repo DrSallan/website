@@ -1,0 +1,85 @@
+/* ===========================================
+  Imports
+  =========================================== */
+
+  @import "common/header.css";
+  @import "common/footer.css";
+  @import "common/theme.css";
+
+/* ===========================================
+  Image
+  =========================================== */
+
+.round-image {
+  border-radius: 50%;
+  height: 320px;
+}
+
+/* ===========================================
+  Layout
+  =========================================== */
+.top {
+  padding-top: 200px;
+}
+
+.side-by-side {
+  justify-content: center;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 50px;
+}
+
+.center {
+  background-color: var(--dark);
+}
+
+.bottom {
+  padding-top: 50px;
+}
+
+/* ===========================================
+  Transitions
+  =========================================== */
+
+.transition-center-top {
+  background-image: url(../img/about/transition.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
+  background-position: bottom;
+}
+
+.transition-center-bottom {
+  background-image: url(../img/about/transition_down.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 200px;
+  background-position: top;
+}
+
+.transition_footer {
+  background-image: url(../img/home/transition_footer.svg);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+/* ===========================================
+  Fonts
+  =========================================== */
+
+h2 {
+  font-size: 58px;
+  line-height: 60px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+  width: 600px;
+}
