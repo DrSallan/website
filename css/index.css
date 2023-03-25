@@ -5,7 +5,6 @@
   @import "common/header.css";
   @import "common/footer.css";
   @import "common/theme.css";
-
 /* ===========================================
   Tagline
   =========================================== */
@@ -26,10 +25,9 @@
 
 .transition {
   background-image: url(../img/home/transition.svg);
-  width: 100%;
+  background-size: 100% 200px;
   height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-width: 100%;
 }
 
 .transition2 {
@@ -98,7 +96,7 @@
 
 .sub-text {
   overflow-wrap: break-word;
-  inline-size: 375px;
+  width: 375px;
   font-size: 25px;
 }
 
