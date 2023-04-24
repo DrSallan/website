@@ -5,6 +5,9 @@
   @import "common/header.css";
   @import "common/footer.css";
   @import "common/theme.css";
+  body {
+    overflow-x: hidden;
+  }
 /* ===========================================
   Tagline
   =========================================== */
@@ -49,10 +52,10 @@
 
 .tagline {
   animation: transitionIn 2s;
-    width: 60%;
+    width: 80%;
     text-align: center;
     text-transform: uppercase;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Secular One', sans-serif;
     color: #007AFF;
     background-image: -webkit-linear-gradient(0deg, #007AFF 0%,#00CCFF 100%);
@@ -70,6 +73,7 @@
 .sub-img {
   width: 40%;
   height: auto;
+  display: none;
 }
 
 .sub-banner {
@@ -90,14 +94,14 @@
 }
 
 .sub-title {
-  font-size: 45px;
+  font-size: 55px;
   margin-bottom: 10px;
 }
 
 .sub-text {
   overflow-wrap: break-word;
   width: 375px;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 /* ===========================================
@@ -114,11 +118,11 @@
 }
 
 .ez-title {
- text-align: right;
+ text-align: left;
 }
 
 .ez-text {
-  text-align: right;
+  text-align: left;
   inline-size: 300px;
 }
 
@@ -138,3 +142,36 @@
     transform: rotateX(0deg);
   }
 }
+
+/* ===========================================
+ responsive
+ =========================================== */
+
+ @media (min-width: 770px) { 
+  .sub-img {
+    display: block;
+  }
+
+  .sub-title {
+    font-size: 45px;
+  }
+  
+  .sub-text {
+    overflow-wrap: break-word;
+    width: 375px;
+    font-size: 25px;
+  }
+
+  .tagline {
+      width: 60%;
+      font-size: 80px;    
+  }
+
+  .ez-text {
+    text-align: right;
+  }
+
+  .ez-title {
+    text-align: right;
+   }
+ }

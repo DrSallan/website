@@ -6,10 +6,10 @@ header {
   width: 100%;
   background-color: var(--light);
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   align-items: center;
-  height: 60px;
+  height: 120px;
   position: fixed;
 }
 
@@ -18,7 +18,7 @@ header {
   font-weight: 100;
   color: var(--text);
   font-size: 40px;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 .menu {
@@ -26,7 +26,8 @@ header {
   flex-flow: row nowrap;
   gap: 20px;
   list-style: none;
-  margin-right: 100px;
+  margin-right: 0px;
+  margin-bottom: 10px;
 }
 
 .menu a:hover {
@@ -46,4 +47,21 @@ header {
 .website-logo2 {
   height: 60px;
   margin-left: 100px;
+}
+
+@media (min-width: 660px) { 
+  header {
+    flex-flow: row wrap;
+    height: 60px;
+  }
+
+  .website-logo {
+    margin-left: 100px;
+    justify-content: space-between;
+  }
+
+  .menu {
+    margin-right: 100px;
+    margin-bottom: 0px;
+  }
 }
