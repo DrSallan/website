@@ -5,9 +5,11 @@
   @import "common/header.css";
   @import "common/footer.css";
   @import "common/theme.css";
-  body {
+
+  body, html {
     overflow-x: hidden;
-  }
+    }
+    
 /* ===========================================
   Tagline
   =========================================== */
