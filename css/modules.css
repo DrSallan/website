@@ -65,7 +65,7 @@
 }
 
 .module-list div:hover {
-  box-shadow: 0px 0px 15px 5px #030303;
+  box-shadow: 0px 0px 10px 5px #45f3ff4b;
 }
 
 /* Item only */
@@ -98,4 +98,14 @@ p {
 
 footer {
   margin-top: 200px;
+}
+
+.module-version {
+  color: #656565;
+  vertical-align:baseline;
+}
+
+.module-version::before {
+  content: "⛏ ";
+  vertical-align:baseline;
 }
